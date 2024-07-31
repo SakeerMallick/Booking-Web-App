@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>travel website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn --->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    <img src="images/logo.png" alt="">
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "destination.html" class = "nav-link">Destination</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                       <button class="Btn-navBar">Book Now</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+       <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <svg class="play-button" viewBox="0 0 64 64" onclick="openVideo()">
+                        <circle cx="32" cy="32" r="30" fill="orange"></circle>
+                        <polygon points="30,26 30,38 40,32" fill="white"></polygon>
+                    </svg>
+                    <p>Travel to the any corner of the world, without going around in circles</p>
+                    <h1>Make Your Tour Amazing<br>With Us</h1>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel location:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination">
+                        <input type="date" class = "form-control" placeholder="Check-in date">
+                        <input type="date" class = "form-control" placeholder="Check-out date">
+                        <input type="number" class = "form-control" placeholder="Price Limit">
+                        <input type="submit" class = "btn2" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <div class="modal" id="videoModal">
+            <div class="modal-content">
+                <span class="close" onclick="closeVideo()">&times;</span>
+                <video id="travelVideo" controls>
+                    <source src="videos/video-section.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <!-- header -->
+        <div class="container1">
+            <div class="services">
+                <div class="service">
+                    <img src="flaction-icon/paragliding.png" alt="Activities">
+                    <h3 >Activities</h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                </div>
+                <div class="service">
+                    <img src="flaction-icon/tour-guide.png" alt="Travel Arrangements">
+                    <h3>Travel Arrangements</h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                </div>
+                <div class="service">
+                    <img src="flaction-icon/destination.png" alt="Private Guide">
+                    <h3 >Private Guide</h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                </div>
+                <div class="service">
+                    <img src="flaction-icon/maps.png" alt="Location Manager">
+                    <h3>Location Manager</h3>
+                    <p>A small river named Duden flows by their place and supplies it with the necessary</p>
+                </div>
+            </div>
+            <div class="main-content">
+                <h1>It's time to start your <br> adventure</h1>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br> <br> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <button>Search Destination</button>
+            </div>
+        </div>
+
+        <!----------------------------------------ddhhdhdh----------------------------------------->
+<!---------------about us------------------------------>
+<div class="container05">
+    <div class="image-container05">
+        <img src="imagesss/WhatsApp Image 2024-07-19 at 20.20.20_3437c076.jpg" alt="Tour Image">
+    </div>
+    <div class="content-container06">
+        <h1>Make Your Tour<br>Memorable and Safe<br>With Us</h1>
+        <p>Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts.<br>Separated they live in Bookmarksgrove right at the coast of the <br> Semantics, a large language ocean.</p>
+        <div class="stats">
+            <div class="stat">
+                <h3>300</h3>
+                <p>Successful Tours</p>
+            </div>
+            <div class="stat">
+                <h3>24,000</h3>
+                <p>Happy Tourists</p>
+            </div>
+            <div class="stat">
+                <h3>200</h3>
+                <p>Places Explored</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------destination----------------------->
+
+<div class="maincont">
+<div class="container21">
+    <h1>Best Place Destination</h1>
+    <div class="card-container21">
+        <div class="card21">
+            <img src="imagesss/place-1.jpg" alt="Singapore">
+            <div class="card-content21">
+                <h2>Singapore</h2>
+                <span>8 Tours</span>
+            </div>
+        </div>
+        <div class="card21">
+            <img src="imagesss/place-2.jpg" alt="Canada">
+            <div class="card-content21">
+                <h2>Canada</h2>
+                <span>2 Tours</span>
+            </div>
+        </div>
+        <div class="card21">
+            <img src="imagesss/place-3.jpg" alt="Thailand">
+            <div class="card-content21">
+                <h2>Thailand</h2>
+                <span>5 Tours</span>
+            </div>
+        </div>
+        <div class="card21">
+            <img src="imagesss/place-4.jpg" alt="Australia">
+            <div class="card-content21">
+                <h2>Australia</h2>
+                <span>5 Tours</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<!-------------------------TOUR DESTINATION------------------------------>
+
+
+<div class="main-tour">
+<div class="container-des">
+    <h1>Tour Destination</h1>
+    <div class="card-container-des">
+        <div class="card-des">
+            <img src="images/destination-1.jpg" alt="Destination Image">
+            <div class="card-content-des">
+                <button class="hover-text">$300/Person</button>
+                <p>8 Days Tour</p>
+                <h2>Bali, Indonesia</h2>
+                <p>Bali, Indonesia</p>
+                <div class="icons-des">
+                    <span>🛏️ 2</span>
+                    <span>🚗 3</span>
+                    <span>🏖️ Near Mountain</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-des">
+            <img src="images/destination-2.jpg" alt="Destination Image">
+            <div class="card-content-des">
+                <button class="hover-text">$300/Person</button>
+                <p>10 Days Tour</p>
+                <h2>Bali, Indonesia</h2>
+                <p>Bali, Indonesia</p>
+                <div class="icons-des">
+                    <span>🛏️ 2</span>
+                    <span>🚗 3</span>
+                    <span>🏖️ Near Beach</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-des">
+            <img src="images/destination-3.jpg" alt="Destination Image">
+            <div class="card-content-des">
+                <button class="hover-text">$300/Person</button>
+                <p>7 Days Tour</p>
+                <h2>Bali, Indonesia</h2>
+                <p>Bali, Indonesia</p>
+                <div class="icons-des">
+                    <span>🛏️ 2</span>
+                    <span>🚗 3</span>
+                    <span>🏖️ Near Beach</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-des">
+            <img src="images/destination-4.jpg" alt="Destination Image">
+            <div class="card-content-des">
+                <button class="hover-text">$300/Person</button>
+                <p>7 Days Tour</p>
+                <h2>Bali, Indonesia</h2>
+                <p>Bali, Indonesia</p>
+                <div class="icons-des">
+                    <span>🛏️ 2</span>
+                    <span>🚗 3</span>
+                    <span>🏖️ Near Beach</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-des">
+            <img src="images/destination-5.jpg" alt="Destination Image">
+            <div class="card-content-des">
+                <button class="hover-text">$300/Person</button>
+                <p>7 Days Tour</p>
+                <h2>Bali, Indonesia</h2>
+                <p>Bali, Indonesia</p>
+                <div class="icons-des">
+                    <span>🛏️ 2</span>
+                    <span>🚗 3</span>
+                    <span>🏖️ Near Beach</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-des">
+            <img src="images/destination-6.jpg" alt="Destination Image">
+            <div class="card-content-des">
+                <button class="hover-text">$300/Person</button>
+                <p>7 Days Tour</p>
+                <h2>Bali, Indonesia</h2>
+                <p>Bali, Indonesia</p>
+                <div class="icons-des">
+                    <span>🛏️ 2</span>
+                    <span>🚗 3</span>
+                    <span>🏖️ Near Beach</span>
+                </div>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+</div>
+</div>
+
+<!-------------------------------feedback--------------------------------->
+<main class="body-feed">
+<section class="testimonals">
+    <div class="container-feedback">
+        <div class="feedback-header">
+            <h2 class="titel-feed">
+                Tourist Feedback
+            </h2>
+        </div>
+        <div class="testimonal-contant">
+            <div class="swiper testimonials-slider js-testimonials-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide testimonal-items ">
+                        <div class="info">
+                            <img src="images/person_1.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_2.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_3.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_1.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_2.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_3.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_3.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_3.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                    <div class="swiper-slide testimonal-items">
+                        <div class="info">
+                            <img src="images/person_3.jpg" alt="">
+                            <div class="text-box">
+                                <h3 class="namesss">sakir</h3>
+                                <span class="job">web-deverlop</span>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque blanditiis debitis natus dignissimos, facere vitae. Quaerat obcaecati aspernatur fugit quo?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
+        </div>
+    </div>
+</section>
+</main>
+
+<!------------------------------end--------------------------------------->
+
+<!----------------------------another----------------------->
+<div class="postcont">
+<div class="container08">
+    <h2>Recent Post</h2>
+    <div class="posts">
+        <div class="post">
+            <div class="post-image">
+                <img src="images/image_1.jpg" alt="Post Image 1">
+                <div class="date">
+                    <span class="day">21</span>
+                    <span class="year">2019</span>
+                    <span class="month">August</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <h3>Why Lead Generation is Key for Business Growth</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-image">
+                <img src="images/image_2.jpg" alt="Post Image 2">
+                <div class="date">
+                    <span class="day">21</span>
+                    <span class="year">2019</span>
+                    <span class="month">August</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <h3>Why Lead Generation is Key for Business Growth</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-image">
+                <img src="images/WhatsApp Image 2024-07-22 at 00.46.51_4f674702.jpg" alt="Post Image 3">
+                <div class="date">
+                    <span class="day">21</span>
+                    <span class="year">2019</span>
+                    <span class="month">August</span>
+                </div>
+            </div>
+            <div class="post-content">
+                <h3>Why Lead Generation is Key for Business Growth</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!---------------------------------------FOOTER-------------------------->
+<footer>
+    <div class="container157">
+        <div class="footer-column">
+            <h4>Vacation</h4>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h4>Information</h4>
+            <ul>
+                <li><a href="#">Online Enquiry</a></li>
+                <li><a href="#">General Enquiries</a></li>
+                <li><a href="#">Booking Conditions</a></li>
+                <li><a href="#">Privacy and Policy</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li class="atorlink"><a href="#">Call Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Experience</h3>
+            <ul>
+                <li><a href="#">Adventure</a></li>
+                <li><a href="#">Hotel and Restaurant</a></li>
+                <li><a href="#">Beach</a></li>
+                <li><a href="#">Nature</a></li>
+                <li><a href="#">Camping</a></li>
+                <li class="atorlink"><a href="#">Party</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h4>Have a Questions?</h4>
+            <ul>
+                <li><img src="location-icon.png" alt="Location"> 203 Fake St. Mountain View, San Francisco, California, USA</li>
+                <li><img src="phone-icon.png" alt="Phone"> +2 392 3929 210</li>
+                <li><img src="email-icon.png" alt="Email"> info@yourdomain.com</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Copyright ©2024 All rights reserved | This template is made with <span>♥</span> by Colorlib</p>
+    </div>
+
+</footer>
+
+   
+        <!-- js -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src = "js/script.js"></script>
+    </body>
+</html>
